@@ -23,6 +23,7 @@
     <link rel="canonical" href="https://www.yash12007.com/yashbodhe">
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow">
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
     <!-- OpenGraph -->
     <meta property="og:type" content="profile">
     <meta property="og:profile:first_name" content="Yash">
@@ -185,6 +186,16 @@
         place-items: center;
         justify-content: center;
         padding: 0px;
+      }#LIProfile{
+        width: 80vw;
+        display: flex;
+        place-items: center;
+        justify-content: space-around;
+        gap: 10px;
+        height: fit-content;
+        margin: auto;
+        flex-wrap: wrap-reverse;
+        margin: 10%;
       }
     </style>
 </head>
@@ -265,6 +276,10 @@
       </div>
     </div>
   </div>
+  <div id="LIProfile">
+    <b>Yash Bodhe on LinkedIn</b>
+    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="yash12007" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/yash12007?trk=profile-badge"></a></div>
+  </div>
   <div id="collection">
     <div style="width: 100%; display: flex; flex-direction: column; place-items: center; justify-content: space-between;">
       <section><h3>Collection</h3></section>
@@ -297,11 +312,11 @@
           <p style="margin: 0px; font-size: 0.7rem;">We'll get back to you soon. In mean-time, don't forget to check your emails. Stay tuned!</p>
         </div>
         <form action="https://formspree.io/f/mvgvopal" method="post">
-          <input aria-label="First Name" type="text" name="First_Name" placeholder="First Name">
-          <input aria-label="Last Name" type="text" name="Last_Name" placeholder="Last Name">
-          <input aria-label="Email" type="email" name="Email" placeholder="Email">
-          <input aria-label="Phone" type="tel" name="Phone" placeholder="Phone Number">
-          <textarea aria-label="Message" name="Message" cols="30" rows="10" placeholder="Your Message"></textarea>
+          <input aria-label="First Name" type="text" name="First_Name" placeholder="First Name" required>
+          <input aria-label="Last Name" type="text" name="Last_Name" placeholder="Last Name" required>
+          <input aria-label="Email" type="email" name="Email" placeholder="Email" required>
+          <input aria-label="Phone" type="tel" name="Phone" placeholder="Phone Number" required>
+          <textarea aria-label="Message" name="Message" cols="30" rows="10" placeholder="Your Message" required></textarea>
           <button type="submit" aria-label="Submit">Submit</button>
         </form>
       </div>
